@@ -1,0 +1,352 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Tahoma, Bitstream Vera Sans, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0%;
+    background-color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    z-index: 10;
+
+}
+
+.navbar-title {
+    display: flex;
+    align-items: center;
+}
+
+.navbar img {
+    height: 40px;
+    width: 40px;
+}
+
+.navbar-topmenu {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-signin {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.Searchmenu {
+    padding: 50px;
+}
+
+.Searchmenu-title {
+    text-align: center;
+    font-size: x-large;
+}
+
+.search-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    font-size: large;
+}
+
+.Searchmenu-searchbox {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    border: gray 1px solid;
+    margin: 20px;
+    border-radius: 40px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-items: center;
+}
+
+.Searchmenu-searchbox i {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.Searchmenu-searchbox input {
+    border: none;
+    width: 100%;
+    border: transparent;
+    font-size: 16px;
+}
+
+.search-options i {
+    padding-right: 10px;
+}
+
+.Searchmenu-searchbox p {
+    background-color: #34E0A1;
+    padding: 13px;
+    border-radius: 40px;
+    margin-right: 4px;
+}
+
+.home-banner {
+    position: relative;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.home-banner img {
+    height: 500px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.home-banner__textbox {
+    position: absolute;
+    background-color: transparent;
+    bottom: 10%;
+    left: 15%;
+    color: white;
+    text-align: left;
+}
+
+.home-banner__textbox h1 {
+    margin: 10px;
+}
+
+.home-banner__textbox h3 {
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.home-banner__textbox p {
+    padding: 15px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 40px;
+    display: inline;
+    color: black;
+}
+
+.display {
+
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.display-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.display-title p {
+    cursor: pointer;
+}
+
+.display-title p:hover {
+    text-decoration: underline;
+}
+
+.display-pics {
+    display: flex;
+    justify-content: space-between;
+}
+
+.display-text {
+    margin-bottom: 10px;
+}
+
+.display-tile__box-1,
+.display-tile__box-2,
+.display-tile__box-3,
+.display-tile__box-4 {
+    position: relative;
+
+}
+
+.display-tile__box-1 img,
+.display-tile__box-2 img,
+.display-tile__box-3 img,
+.display-tile__box-4 img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.display-tile__box-1 h1,
+.display-tile__box-2 h1,
+.display-tile__box-3 h1,
+.display-tile__box-4 h1 {
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+    color: white;
+}
+
+.recent {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+}
+
+.location-content {
+    display: flex;
+}
+
+.location-content-1,
+.location-content-2 {
+    border: solid black 1px;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 10px;
+    display: grid;
+}
+
+.location-content-1 img,
+.location-content-2 img {
+    height: 2%;
+    width: 2%;
+    margin-right: 10px;
+}
+
+.explore {
+    margin-top: 20px;
+    background-color: #FAF1ED;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+
+.explore h2 {
+    margin-left: 4%;
+    padding: 20px;
+
+}
+
+.explore-tiles {
+    margin-left: 5%;
+    display: flex;
+
+}
+
+.explore-tiles img {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.footer {
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #FAF1ED;
+}
+
+.footer-1 {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 40%;
+}
+
+.footer-section p {
+    padding: 5px;
+}
+
+.footer-section p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.heading {
+    text-decoration: none !important;
+    cursor: auto !important;
+}
+
+.heading {
+    font-size: large;
+    padding: 3px;
+}
+
+.footer-logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.footer-2{
+    margin-top:10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.logos img{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+.logos{
+    text-align: right;
+}
+
+.footer-2-copyright p{
+    font-size: small;
+}
+
+.footer-2-link-1{
+    display: flex;
+}
+
+.footer-2-link-1 p{
+    padding-right: 20px;
+    text-decoration: underline;
+    padding-top: 5px;
+}
+
+.footer-2-link-1 p:hover{
+    cursor: pointer;
+}
+
+.footer-section-1__company{
+    display: flex;
+}
+
+.footer-2-text p{
+    font-size: small;
+    margin-top: 10px;
+}
+
+.footer-dropdown{
+    text-align: right;
+}
+
+#currency{
+    width: 150px;
+    height: 30px;
+    border: lightgray solid 2px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background: white;
+}
+
+@media screen and (max-width:600px) {
+
+    .display-tile__box-3 img,
+    .display-tile__box-4 img {
+        display: none;
+    }
+
+    .display-tile__box-3 h1,
+    .display-tile__box-4 h1 {
+        display: none;
+    }
+}
